@@ -1,0 +1,16 @@
+{
+	id: "e7610a0d-c1be-3ff1-8a44-a6b815a1c57d"
+	type: "player"
+	player_name: "Mortie"
+	ranks: {
+		e7610a0d-c1be-3ff1-8a44-a6b815a1c57d: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Mortie"
+		"ftbteams:color": "#FF59E5"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

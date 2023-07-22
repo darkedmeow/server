@@ -1,0 +1,478 @@
+{
+	id: "5D623B3DAC511DBC"
+	group: ""
+	order_index: 7
+	filename: "5_end"
+	title: "Космос"
+	icon: {
+		id: "boss_tools:rocket_t1"
+		Count: 1b
+		tag: {
+			temperature: 0.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: [
+				"65B34C7861A55A5D"
+				"4C59BB1A7213AB24"
+			]
+			id: "5A3D0C8883CA0E9E"
+			tasks: [{
+				id: "5821C5279C8F4763"
+				type: "checkmark"
+				title: "Космос!"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["5A3D0C8883CA0E9E"]
+			id: "620E42AA887AAC56"
+			tasks: [{
+				id: "03F2A3B2D3F5323C"
+				type: "item"
+				item: {
+					id: "boss_tools:nasa_workbench"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "379BBBABF3DFFA39"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:jet_boots_upgrade_1"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			dependencies: ["620E42AA887AAC56"]
+			id: "434ABCB1A9011D18"
+			tasks: [{
+				id: "28382C7C46AF7EAD"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "10FAB4ADB930A8E4"
+				type: "item"
+				item: "mekanism:oxygen_bucket"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			dependencies: ["434ABCB1A9011D18"]
+			id: "25FB7BDCD0831F9C"
+			tasks: [{
+				id: "0F0AAA45F91C207C"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "46A79E5AE93BD6A8"
+				type: "item"
+				item: {
+					id: "silentgear:katana"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-2067177782
+							75516196
+							-1838558644
+							822080922
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:katana_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:obsidian"
+													}
+													{
+														Item: {
+															id: "pneumaticcraft:ingot_iron_compressed"
+															Count: 1b
+														}
+														ID: "silentgear:compressed_iron"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_iron_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_iron"
+													}
+												]
+											}
+										}
+										ID: "silentgear:katana_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:custom_gem"
+														Count: 1b
+														tag: {
+															Material: "dimerald"
+														}
+													}
+													ID: "silentgear:dimerald"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:diamond"
+														Count: 1b
+													}
+													ID: "silentgear:diamond"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.36"
+								Stats: {
+									"silentgear:enchantability": 8.928306f
+									"silentgear:harvest_speed": 10.49345f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 2130.535f
+									"silentgear:melee_damage": 7.370866f
+									"silentgear:magic_damage": 2.7942626f
+									"silentgear:rarity": 36.41533f
+									"silentgear:attack_speed": -2.4679623f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 2b
+										Name: "silentgear:jagged"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:crushing"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:brittle"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:ancient"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "katana:katana_blade{obsidian,compressed_iron,crimson_iron},rod{dimerald},tip{diamond},"
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			dependencies: ["25FB7BDCD0831F9C"]
+			id: "429C3876AB617E34"
+			tasks: [{
+				id: "4D4A85ABAAC37A5B"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t3"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B8288777445C3A2"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.0d
+			dependencies: ["620E42AA887AAC56"]
+			id: "1B3983BB7163CCFE"
+			tasks: [{
+				id: "4A0062D50FAE7CFF"
+				type: "item"
+				item: {
+					id: "boss_tools:rover"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "525E52B1698557AE"
+				type: "item"
+				item: {
+					id: "boss_tools:fuel_bucket"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["5A3D0C8883CA0E9E"]
+			id: "59138CBFA2697AE7"
+			tasks: [{
+				id: "1422BA99812875DA"
+				type: "item"
+				item: {
+					id: "boss_tools:solar_panel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "70BF8D5843976971"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["5A3D0C8883CA0E9E"]
+			id: "01F2AFBF1CC475C4"
+			tasks: [{
+				id: "38524A5F9D8DB8DD"
+				type: "item"
+				item: {
+					id: "boss_tools:compressor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BCC65BA622498A5"
+				type: "item"
+				item: "corn_delight:taco"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["59138CBFA2697AE7"]
+			id: "32A68E26589F7678"
+			tasks: [{
+				id: "334C75E2D290A0C8"
+				type: "item"
+				item: {
+					id: "boss_tools:coal_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4339485FB2D7BADF"
+				type: "item"
+				item: {
+					id: "minecraft:coal_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			dependencies: ["01F2AFBF1CC475C4"]
+			id: "656726F938D19F99"
+			tasks: [{
+				id: "3A8205695F7752EA"
+				type: "item"
+				item: {
+					id: "boss_tools:blast_furnace"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C04A9B3FF99E0C2"
+					type: "item"
+					item: {
+						id: "minecraft:orange_glazed_terracotta"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 64
+				}
+				{
+					id: "3C3EC8049651354D"
+					type: "item"
+					item: {
+						id: "minecraft:blue_glazed_terracotta"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 64
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["656726F938D19F99"]
+			id: "07ECF79250ADAF5B"
+			tasks: [{
+				id: "6A66E5BEA90B5C2E"
+				type: "item"
+				item: {
+					id: "boss_tools:fuel_refinery"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6D4B054C9F79F5D7"
+				type: "item"
+				item: "electrodynamics:canisterreinforced"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["07ECF79250ADAF5B"]
+			id: "7DB005A04C40E581"
+			tasks: [{
+				id: "661B8072359D85D8"
+				type: "item"
+				item: {
+					id: "boss_tools:oxygen_loader"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BCEEB76BC15AFAC"
+				type: "item"
+				item: {
+					id: "minecraft:cooked_mutton"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 24
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["7DB005A04C40E581"]
+			id: "6F289A9E09D68BEA"
+			tasks: [{
+				id: "5320EC7FAA0683FC"
+				type: "item"
+				item: {
+					id: "boss_tools:water_pump"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "7AA87A5F2D1BA12F"
+				type: "random"
+				table_id: 3088002506797539098L
+			}]
+		}
+	]
+}

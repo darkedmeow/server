@@ -1,0 +1,286 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/custom_locals/fon.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-left
+  x = 510
+  action = movebutton
+  y = -9
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-left
+  x = 451
+  action = movebutton
+  y = -162
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 508
+  action = movebutton
+  y = -83
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = bottom-left
+  x = 339
+  action = movebutton
+  y = -137
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = 193
+  action = movebutton
+  y = -56
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 133
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 46795fde-2649-4afd-8ece-7b0baa75dc571666760118199
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 927aac55-329f-42d3-a307-19cffdfa0fc21666760118199
+  y = 237
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 305
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 685b7dee-d114-4292-8ee9-692f7bcfc0cb1666760118199
+  y = 259
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 370
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = d8a22dc7-9994-4a76-9e1d-aa597ea7211f1666760118199
+  y = 169
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 130
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 0e429d6f-72ce-4e1f-a826-88819b8459db1666760118199
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 0ed134b8-8176-46c8-ac05-c0302e6b41191666760118199
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  backgroundhovered = config\fancymenu\custom_locals\nastr_naz.png
+  label = 
+  loopbackgroundanimations = true
+  x = 6
+  width = 195
+  actionid = 0dce2f99-ccb1-4e51-96cb-157c01dd48131666761712715
+  action = addbutton
+  y = -69
+  backgroundnormal = config\fancymenu\custom_locals\nastr.png
+  value = nastr
+  height = 25
+}
+
+customization {
+  path = config/fancymenu/custom_locals/nazf.png
+  orientation = top-centered
+  x = -215
+  width = 434
+  action = addtexture
+  actionid = 7eaea1b8-8247-4741-ad3a-e117fc1eae491666762106680
+  y = -24
+  height = 241
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  backgroundhovered = config\fancymenu\custom_locals\odin_naz.png
+  label = 
+  loopbackgroundanimations = true
+  x = 6
+  width = 195
+  actionid = 7561a98a-c3a7-4a84-b07a-3de00dbcdb361666761382703
+  action = addbutton
+  y = -129
+  backgroundnormal = config\fancymenu\custom_locals\odin.png
+  value = odin
+  height = 25
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  backgroundhovered = config\fancymenu\custom_locals\set_1.png
+  label = 
+  loopbackgroundanimations = true
+  x = 6
+  width = 195
+  actionid = 25eb6022-d3db-4536-96fa-e8c08eea58d31666761640887
+  action = addbutton
+  y = -99
+  backgroundnormal = config\fancymenu\custom_locals\set_naz.png
+  value = set
+  height = 25
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = config\fancymenu\custom_locals\vshod_naz.png
+  label = 
+  loopbackgroundanimations = true
+  x = -202
+  width = 195
+  actionid = 52661753-e53c-4352-944a-b7f8f4e7e5fc1666763333643
+  action = addbutton
+  y = -39
+  backgroundnormal = config\fancymenu\custom_locals\vshod.png
+  value = null
+  height = 26
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\custom_locals\vk_naz.png
+  label = 
+  loopbackgroundanimations = true
+  x = -202
+  width = 195
+  actionid = 70fc9748-6bfa-49a1-a155-007c0f2d179d1667747248521
+  action = addbutton
+  y = -69
+  backgroundnormal = config\fancymenu\custom_locals\vk.png
+  value = https://vk.com/saudade_mine
+  height = 25
+}
+
+customization {
+  orientation = bottom-right
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\custom_locals\vk2_1.png
+  label = 
+  loopbackgroundanimations = true
+  x = -231
+  width = 25
+  actionid = 2df2eef4-95cd-49e3-aae0-47772bdd28601667748080199
+  action = addbutton
+  y = -69
+  backgroundnormal = config\fancymenu\custom_locals\vk2_naz.png
+  value = https://vk.com/oh_yuki
+  height = 25
+}
+

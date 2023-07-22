@@ -1,0 +1,175 @@
+{
+	id: "2DD031553DBE7C1B"
+	group: ""
+	order_index: 9
+	filename: "2DD031553DBE7C1B"
+	title: "Творчество в глазах"
+	icon: {
+		id: "mekanism:creative_energy_cube"
+		Count: 1b
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "18446744073709551615.9999"
+				}]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "5EF97B66E43F3E0E"
+			tasks: [{
+				id: "3B5828D4BC4350DF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:creative_storage_cell"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "48D3C00D6AABE6BB"
+				type: "item"
+				item: "immersiveengineering:storage_lead"
+				count: 20
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "7FF53428CF5247B6"
+			tasks: [{
+				id: "510CD2F06D175360"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:creative_compressor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "160EEDA50D930564"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:64k_storage_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "1633A6E4BEBF3D97"
+			tasks: [{
+				id: "22C5A9DBBAFC213B"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:creative_compressed_iron_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CF3CF7F79862D84"
+					type: "item"
+					item: {
+						id: "minecraft:totem_of_undying"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "3350CAA491108E05"
+					type: "random"
+					table_id: 2718829273702904777L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			id: "203F91519CB18437"
+			tasks: [{
+				id: "361412587F6BF962"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "51CD4F3ACA13E544"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_ingot"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			id: "3C9E3DBF1B8EDDD5"
+			tasks: [{
+				id: "7A6FE3DFEA14E98C"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "344A3F5F380DC736"
+				type: "item"
+				item: "minecraft:villager_spawn_egg"
+				count: 4
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			id: "51BA82E8B5D2A89F"
+			tasks: [{
+				id: "4E366AEEAFAAC528"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "5F91F92B269276AB"
+				type: "item"
+				item: {
+					id: "boss_tools:solar_panel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 26
+			}]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.MultiplayerScreen {
+}
+
+com.replaymod.gui.container.AbstractGuiScreen$MinecraftGuiScreen {
+}
+
+net.optifine.shaders.gui.GuiShaderOptions {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+

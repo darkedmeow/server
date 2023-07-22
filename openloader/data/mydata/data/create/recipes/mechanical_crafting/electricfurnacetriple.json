@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  F  ",
+    " DCB ",
+    "FCACF",
+	" BCD ", 
+	"  F  "
+  ],
+  "key": {
+    "A": {
+      "item": "electrodynamics:electricfurnacedouble"
+    },
+    "B": {
+      "item": "createaddition:overcharged_alloy"
+    },
+	"C": {
+      "item": "pneumaticcraft:plastic"
+    },
+	"D": {
+      "item": "pneumaticcraft:advanced_pcb"
+    },
+	"F": {
+      "item": "electrodynamics:circuitelite"
+    }
+  },
+  "result": {
+    "item": "electrodynamics:electricfurnacetriple"
+  },
+  "acceptMirrored": true
+}

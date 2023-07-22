@@ -1,0 +1,69 @@
+{
+	id: "25BB38D1C7FEB3C9"
+	order_index: 1
+	title: "Р,Д"
+	loot_size: 1
+	rewards: [
+		{
+			xp: 1000
+			type: "xp"
+		}
+		{
+			item: {
+				id: "minecraft:warped_stairs"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:emerald_block"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{ item: "industrialforegoing:plastic", count: 2 }
+		{
+			item: {
+				id: "minecraft:diamond_block"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_golden_apple"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{ item: "mekanism:block_uranium" }
+		{
+			item: {
+				id: "curios:crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:grass_block"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+			count: 30
+		}
+	]
+}

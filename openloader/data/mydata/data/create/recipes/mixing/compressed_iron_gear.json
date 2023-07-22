@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    {
+      "item": "steampowered:steel_ingot"
+    },
+	{
+      "item": "create:powdered_obsidian"
+    },
+	{
+      "item": "steampowered:steel_ingot"
+    },
+	{
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+  ],
+  "results": [
+    {
+      "item": "pneumaticcraft:compressed_iron_gear"
+    }
+  ]
+}

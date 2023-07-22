@@ -1,0 +1,682 @@
+{
+	id: "731166D302EB709C"
+	group: ""
+	order_index: 6
+	filename: "731166D302EB709C"
+	title: "Пластик"
+	icon: "industrialforegoing:plastic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Новая глава"
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["60C8A008236D955C"]
+			id: "1707FB38427A042A"
+			tasks: [{
+				id: "5CCEABFE58210CC9"
+				type: "checkmark"
+				title: "oWo"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["1707FB38427A042A"]
+			id: "2E082AA16DDE4C4E"
+			tasks: [
+				{
+					id: "5423FE1E55625204"
+					type: "item"
+					item: "industrialforegoing:fluid_extractor"
+				}
+				{
+					id: "752F0A0916827387"
+					type: "item"
+					item: "industrialforegoing:latex_processing_unit"
+				}
+			]
+			rewards: [{
+				id: "37E984B2B243709C"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+				count: 12
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["2E082AA16DDE4C4E"]
+			id: "34176B0BA60D9ED8"
+			tasks: [{
+				id: "607713617870C4CB"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 10L
+			}]
+			rewards: [{
+				id: "10229D80AF2DB2D4"
+				type: "item"
+				item: {
+					id: "minecraft:creeper_head"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			description: [""]
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "3B42F6F1D955D648"
+			tasks: [
+				{
+					id: "3E4B217A566E2D09"
+					type: "item"
+					item: "industrialforegoing:plant_fertilizer"
+				}
+				{
+					id: "446681E8C9A9911A"
+					type: "item"
+					item: "industrialforegoing:plant_sower"
+				}
+				{
+					id: "69FFEBEA83DB2ED8"
+					type: "item"
+					item: "industrialforegoing:plant_gatherer"
+				}
+				{
+					id: "5E079198D6023FE8"
+					type: "item"
+					item: "industrialforegoing:sewer"
+				}
+			]
+			rewards: [
+				{
+					id: "47CB7A8171859774"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				}
+				{
+					id: "7D93105148F782C2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "31515685CA8BD2F7"
+			tasks: [
+				{
+					id: "262A9808BD6A1742"
+					type: "item"
+					item: "industrialforegoing:animal_feeder"
+				}
+				{
+					id: "312D1BA5847A5120"
+					type: "item"
+					item: "industrialforegoing:animal_rancher"
+				}
+			]
+			rewards: [{
+				id: "0A6FD363503730D2"
+				type: "random"
+				table_id: 3088002506797539098L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "110005114DF80BFA"
+			tasks: [{
+				id: "0343E089663AABD7"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+			rewards: [{
+				id: "4FF5C27AD4A2C838"
+				type: "item"
+				title: "ъеъ"
+				item: {
+					id: "minecraft:dirt"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 64
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "1F1D1FB9162629E1"
+			tasks: [{
+				id: "2A400013BD3D111E"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "26330BD00108352D"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "4B59C4A1C50D2794"
+			tasks: [{
+				id: "08D2056B111FBBB5"
+				type: "item"
+				item: "industrialforegoing:mob_duplicator"
+			}]
+			rewards: [{
+				id: "683D280B600426C3"
+				type: "item"
+				item: {
+					id: "minecraft:ender_eye"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "53EFDB0BBD0B29D6"
+			tasks: [{
+				id: "25617BBC0092C52D"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "52727B181B4B4028"
+				type: "item"
+				item: {
+					id: "minecraft:iron_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "4DB9A6C747E393CA"
+			tasks: [{
+				id: "542FCCFE88C0CFB7"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			rewards: [{
+				id: "281992E3E7215131"
+				type: "item"
+				item: "mekanism:cardboard_box"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "7580CEB42B9C5CDD"
+			tasks: [{
+				id: "2064BC2882E6026C"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "1B82FBA8B13D96D2"
+				type: "item"
+				item: {
+					id: "minecraft:wither_skeleton_skull"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "3864AC556FABF82E"
+			tasks: [
+				{
+					id: "029490ADFC392881"
+					type: "item"
+					item: "industrialforegoing:block_placer"
+				}
+				{
+					id: "43D96E61926888E6"
+					type: "item"
+					item: "industrialforegoing:block_breaker"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "5F8109B8E814F048"
+			tasks: [
+				{
+					id: "65715101CEAFCD98"
+					type: "item"
+					item: "industrialforegoing:ore_laser_base"
+				}
+				{
+					id: "6F7594F4FD18DA19"
+					type: "item"
+					item: "industrialforegoing:laser_drill"
+				}
+				{
+					id: "16ECE1A2FD270E7B"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+			]
+			rewards: [{
+				id: "3F1F35F1553546E8"
+				type: "item"
+				item: "farmersdelight:hamburger"
+				count: 32
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "73BA5ABBB8DAC91E"
+			tasks: [{
+				id: "7B20E9ABC0B07FA0"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+			rewards: [{
+				id: "2CBF8D30A259BE0F"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:module_geothermal_generator_unit"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "288FFB2C32484945"
+			tasks: [
+				{
+					id: "18A8DC5A61E7AF98"
+					type: "item"
+					item: "industrialforegoing:enchantment_factory"
+				}
+				{
+					id: "78D070EBAE1F50D3"
+					type: "item"
+					item: "industrialforegoing:enchantment_extractor"
+				}
+				{
+					id: "63AB39A576F94B1E"
+					type: "item"
+					item: "industrialforegoing:enchantment_sorter"
+				}
+				{
+					id: "6D7A41AEAD2C9EAB"
+					type: "item"
+					item: "industrialforegoing:enchantment_applicator"
+				}
+			]
+			rewards: [{
+				id: "230E3DD199E62C95"
+				type: "item"
+				item: {
+					id: "minecraft:bookshelf"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 7
+			}]
+		}
+		{
+			title: "Энергия Create"
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "41311B2BA489461B"
+			tasks: [{
+				id: "0581D8EE958F57D4"
+				type: "checkmark"
+				title: "Энергия Create"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "51EF83CD2476571C"
+			tasks: [{
+				id: "67772EF492ED3009"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_trident"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Riptide: 0
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Loyalty: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1257348B3CCEA31D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:impaling"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "0965559C67262392"
+			tasks: [{
+				id: "6BE4D431B9EDBD7E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17E5B1E5A47E8F98"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "45BAECF2A4FC5D98"
+			tasks: [{
+				id: "78CC404CAD91DEAE"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_launcher"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Plunger: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0717B2212489DF49"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "28FB3D85E0B2DAB5"
+			tasks: [{
+				id: "0BCEE8F0A2BA0DD8"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_nuke"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C34F2122DFAA9FF"
+				type: "item"
+				item: {
+					id: "minecraft:beacon"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "58A8BE785A5F7CDD"
+			tasks: [{
+				id: "0C5E54698FF51150"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18AED152D86D3526"
+				type: "item"
+				item: {
+					id: "silentgear:azure_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "54F7115B39E34717"
+			tasks: [{
+				id: "13BD91A567F7F016"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+			rewards: [{
+				id: "017AB009F82154B4"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "5D51BDC6DAF21603"
+			tasks: [{
+				id: "098AAD9ED0755954"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_hammer"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+						Special: 0b
+						Selected: "POOR"
+						Beheading: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "36C6BFDD02CC1003"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "2C9DCE0F542DEFBD"
+			tasks: [{
+				id: "198194ABC885AF3E"
+				type: "item"
+				item: "industrialforegoing:mob_imprisonment_tool"
+			}]
+			rewards: [{
+				id: "5DAEBAA99933A94B"
+				type: "item"
+				item: {
+					id: "minecraft:ghast_spawn_egg"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "КрасаВchik"
+			x: 0.0d
+			y: -9.0d
+			dependencies: [
+				"5F8109B8E814F048"
+				"288FFB2C32484945"
+				"0965559C67262392"
+			]
+			id: "4C59BB1A7213AB24"
+			tasks: [{
+				id: "128F4FB2610364A4"
+				type: "checkmark"
+				title: "КрасаВchik"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["34176B0BA60D9ED8"]
+			id: "3A0203B7DE89C6EE"
+			tasks: [{
+				id: "0CDC9819778F949B"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "76B5604DE0A03A1A"
+				type: "item"
+				item: {
+					id: "minecraft:crying_obsidian"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+	]
+}

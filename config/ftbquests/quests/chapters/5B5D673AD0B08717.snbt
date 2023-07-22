@@ -1,0 +1,424 @@
+{
+	id: "5B5D673AD0B08717"
+	group: ""
+	order_index: 3
+	filename: "5B5D673AD0B08717"
+	title: "Энергия"
+	icon: "immersiveengineering:dynamo"
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -4.0d
+			dependencies: ["6551E29CC4A162D9"]
+			id: "744A1F22EF2A3AFB"
+			tasks: [{
+				id: "59FD770E8941E3A7"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1F28AD2DAFC370BB"
+				type: "item"
+				item: "farmersdelight:honey_glazed_ham"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			dependencies: ["744A1F22EF2A3AFB"]
+			id: "2A7439321365B58D"
+			tasks: [{
+				id: "006735E347CFA344"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "78383E9AF2D7C2A7"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			dependencies: ["2A7439321365B58D"]
+			id: "44597D9968E51126"
+			tasks: [
+				{
+					id: "34D61B01E22C5BDA"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+				{
+					id: "6A2E9E7D9C72A6EC"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+			rewards: [{
+				id: "090E0DC89818B51E"
+				type: "item"
+				item: "immersiveengineering:dust_steel"
+				count: 3
+			}]
+		}
+		{
+			title: "Это КоКс, чувак"
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["2A7439321365B58D"]
+			id: "25A9A129D30CB644"
+			tasks: [
+				{
+					id: "4B0AA4CC9379CCBE"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 8L
+				}
+				{
+					id: "5015B538BB340FE0"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+				}
+			]
+			rewards: [{
+				id: "166D819DD5E3C873"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 10
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["25A9A129D30CB644"]
+			id: "664C56B0E4F5542B"
+			tasks: [
+				{
+					id: "6A4996671EEC9F51"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+				{
+					id: "10318C9B57B5C2AE"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+			]
+			rewards: [{
+				id: "29195277668815A9"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 10
+			}]
+		}
+		{
+			title: "Обработка древесины"
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["25A9A129D30CB644"]
+			id: "1D39661A157DECAC"
+			tasks: [
+				{
+					id: "461C20E00DCD5ADF"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8L
+				}
+				{
+					id: "4534C50301292C0F"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			dependencies: ["664C56B0E4F5542B"]
+			id: "4152D97547C92D98"
+			tasks: [{
+				id: "1E347CE4FC80735A"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 5L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["1D39661A157DECAC"]
+			id: "4539FC2A456C2969"
+			tasks: [{
+				id: "171F3EE1B05C626E"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "46D374FEA5ECED77"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 14
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["4539FC2A456C2969"]
+			id: "0427AD326845BBAD"
+			tasks: [
+				{
+					id: "0CAAEDA79E3702FA"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "46866C87C5351C6E"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F4710D2E01CC9DA"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["4152D97547C92D98"]
+			id: "61FFDA1AB7E74D79"
+			tasks: [{
+				id: "2B8DECA69CA8C049"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_metalpress"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0231D68922DE8FD0"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			dependencies: ["4152D97547C92D98"]
+			id: "254F25F7D5B7DEF7"
+			tasks: [{
+				id: "3827CD6DDF5D1484"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_improvedblastfurnace"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6521D363FC9BFF60"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 7
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["4152D97547C92D98"]
+			id: "4F1B710EEDC525A8"
+			tasks: [{
+				id: "0BB2DCCF237A2053"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_crusher"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "491FEFF5016E1E83"
+				type: "item"
+				item: {
+					id: "minecraft:music_disc_blocks"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["4152D97547C92D98"]
+			id: "3BC6E2F270F1FE52"
+			tasks: [{
+				id: "2474FA75D5FC881F"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_excavator"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "677A363640F8246A"
+				type: "item"
+				item: "immersiveengineering:drillhead_iron"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.5d
+			dependencies: ["4152D97547C92D98"]
+			id: "2264B3E41B5CDD75"
+			tasks: [{
+				id: "49B71743019C16A8"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_dieselgen"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "617A9E3989EA092A"
+				type: "item"
+				item: "immersivepetroleum:oil_bucket"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			dependencies: ["4152D97547C92D98"]
+			id: "3A08BA7D9164332D"
+			tasks: [{
+				id: "32B822A6A88AA040"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_arcfurnace"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A68002BE8C6E929"
+				type: "item"
+				item: "immersiveengineering:plantoil_bucket"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["4152D97547C92D98"]
+			id: "3E28FCFC5363916C"
+			tasks: [{
+				id: "7379EED6F8B7764C"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_silo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2507700068FDBE82"
+				type: "item"
+				title: "Иглоблюх"
+				item: {
+					id: "minecraft:pufferfish"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			dependencies: [
+				"61FFDA1AB7E74D79"
+				"2264B3E41B5CDD75"
+				"3BC6E2F270F1FE52"
+				"4F1B710EEDC525A8"
+				"3A08BA7D9164332D"
+				"254F25F7D5B7DEF7"
+				"3E28FCFC5363916C"
+			]
+			id: "60C8A008236D955C"
+			tasks: [{
+				id: "53A70FA5D1D38596"
+				type: "item"
+				item: "immersiveengineering:ingot_steel"
+				count: 64L
+			}]
+			rewards: [{
+				id: "49D8547DC50A5D41"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			dependencies: ["2A7439321365B58D"]
+			id: "343066649573CDB6"
+			tasks: [
+				{
+					id: "56E673D8718911AC"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "2ACDEDAEA5AA7CB4"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D58AA2C8030EF58"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "583F41A1CEDAF091"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [{
+				id: "3A5EC9B0F1887EA9"
+				type: "random"
+				table_id: 3088002506797539098L
+			}]
+		}
+	]
+}

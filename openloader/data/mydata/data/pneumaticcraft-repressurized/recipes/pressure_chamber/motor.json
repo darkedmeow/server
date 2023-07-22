@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "steampowered:steel_sheet",
+      "count": 4
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "electrodynamics:wirecopper",
+      "count": 5
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "pneumaticcraft:plastic",
+      "count": 2
+    }	
+  ],
+  "pressure": 2.0,
+  "results": [
+    {
+      "item": "electrodynamics:motor",
+	  "count": 2
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "steampowered:steel_sheet"
+    },
+    {
+      "item": "createaddition:zinc_sheet"
+    },
+    {
+      "item": "create:golden_sheet"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "createaddition:capacitor",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "item": "create:precision_mechanism"
+    },
+	{
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+	{
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  ],
+  "pressure": 5.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:fluid_mixer"
+    }
+  ]
+}

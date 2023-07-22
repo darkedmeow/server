@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "  A  ",
+    "  A  ",
+    "  B  ",
+	" A A ",
+	"A   A"
+  ],
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:turbine_blade"
+    },
+    "B": {
+      "item": "steampowered:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "pneumaticcraft:turbine_rotor"
+  },
+  "acceptMirrored": true
+}

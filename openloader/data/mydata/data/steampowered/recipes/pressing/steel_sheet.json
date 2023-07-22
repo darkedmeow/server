@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "steampowered:steel_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "steampowered:steel_sheet"
+    }
+  ]
+}

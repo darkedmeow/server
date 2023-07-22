@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+  	"  A  ",
+  	" ISI ",
+    "ISRSI",
+    " ICI "
+  ],
+  "key": {
+    "C": {
+      "item": "createaddition:capacitor"
+    },
+    "I": {
+      "item": "steampowered:steel_sheet"
+    },
+    "R": {
+      "tag": "forge:rods/iron"
+    },
+    "S": {
+      "item": "createaddition:copper_spool"
+    },
+    "A": {
+      "item": "create:refined_radiance"
+    }
+  },
+  "result": {
+    "item": "createaddition:alternator"
+  }
+}

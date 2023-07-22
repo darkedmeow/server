@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "electrodynamics:dustmolybdenum"
+    },
+	{
+      "item": "steampowered:steel_ingot"
+    }
+  ],
+  "pressure": 2.5,
+  "results": [
+    {
+      "item": "immersiveengineering:cokebrick",
+	  "count": 3
+    }
+  ]
+}

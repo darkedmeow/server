@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "mekanism:dust_coal"
+    },
+    {
+      "item": "electrodynamics:dustniter"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "count":2
+    }
+  ]
+}

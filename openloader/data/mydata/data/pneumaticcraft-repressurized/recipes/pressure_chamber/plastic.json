@@ -1,0 +1,42 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "mekanism:ultimate_control_circuit",
+      "count": 4
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "createaddition:overcharged_alloy",
+      "count": 2
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "appliedenergistics2:64k_fluid_cell_component",
+      "count": 2
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "electrodynamics:crystalmolybdenum",
+      "count": 4
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "electrodynamics:circuitultimate>",
+      "count": 4
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "steampowered:steel_ingot",
+      "count": 5
+    }	
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "industrialforegoing:plastic",
+	  "count": 2
+    }
+  ]
+}

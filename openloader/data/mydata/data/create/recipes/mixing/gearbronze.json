@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "electrodynamics:dustmolybdenum"
+    },
+    {
+      "item": "steampowered:bronze_sheet"
+    },
+	{
+      "item": "steampowered:bronze_sheet"
+    },
+	{
+      "item": "steampowered:bronze_sheet"
+    },
+	{
+      "item": "steampowered:bronze_sheet"
+    },
+    {
+      "item": "create:refined_radiance"
+	}
+  ],
+  "results": [
+    {
+      "item": "electrodynamics:gearbronze"
+    }
+  ],
+  "heatRequirement": "heated"
+}

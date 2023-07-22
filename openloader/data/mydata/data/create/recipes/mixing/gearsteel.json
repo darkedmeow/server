@@ -1,0 +1,26 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+    {
+      "item": "steampowered:steel_sheet"
+	},
+	{
+      "item": "steampowered:steel_sheet"
+	},
+	{
+      "item": "steampowered:steel_sheet"
+	}
+  ],
+  "results": [
+    {
+      "item": "electrodynamics:gearsteel"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,7 @@
+type = cached_variables
+
+variables {
+  optcontext = 0
+  vidin = 1
+}
+

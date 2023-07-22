@@ -1,0 +1,38 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+	{
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+	{
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+	{
+      "tag": "appliedenergistics2:crystals/fluix"
+    },
+    {
+      "item": "appliedenergistics2:annihilation_core"
+	},
+    {
+      "item": "appliedenergistics2:formation_core"
+	},
+    {
+      "item": "create:powdered_obsidian"
+	},
+    {
+      "item": "create:powdered_obsidian"
+	}
+  ],
+  "results": [
+    {
+      "item": "appliedenergistics2:fluix_pearl"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

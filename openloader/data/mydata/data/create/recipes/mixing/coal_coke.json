@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "pneumaticcraft:glycerol"
+    },
+	{
+      "item": "create:cinder_flour"
+    },
+	{
+      "item": "create:powdered_obsidian"
+    },
+	{
+      "item": "electrodynamics:impuredustsilver"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:coal_coke"
+    }
+  ]
+}

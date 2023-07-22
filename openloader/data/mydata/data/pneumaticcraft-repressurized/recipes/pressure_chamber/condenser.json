@@ -1,0 +1,32 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "create:refined_radiance",
+      "count": 7
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "createaddition:overcharged_alloy",
+      "count": 7
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "pneumaticcraft:plastic",
+      "count": 50
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "appliedenergistics2:engineering_processor",
+      "count": 64
+    }	
+  ],
+  "pressure": 5.5,
+  "results": [
+    {
+      "item": "appliedenergistics2:condenser",
+	  "count": 1
+    }
+  ]
+}

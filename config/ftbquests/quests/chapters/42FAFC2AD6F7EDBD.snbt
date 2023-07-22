@@ -1,0 +1,559 @@
+{
+	id: "42FAFC2AD6F7EDBD"
+	group: ""
+	order_index: 4
+	filename: "42FAFC2AD6F7EDBD"
+	title: "Сундук-Файл"
+	icon: {
+		id: "appliedenergistics2:controller"
+		Count: 1b
+		tag: {
+			temperature: 0.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["60C8A008236D955C"]
+			id: "3CD2E0BAD7D3DD83"
+			tasks: [{
+				id: "156C87E12556368F"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:sky_compass"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "5180F8D7082106FA"
+				type: "item"
+				item: {
+					id: "minecraft:iron_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["5ABEBB29E0F57B28"]
+			id: "4F27BBEDAD0E37F2"
+			tasks: [{
+				id: "12F60923B5C0AB9A"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:inscriber"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C9F5EF8EE6CE0E5"
+				type: "item"
+				item: {
+					id: "minecraft:slime_spawn_egg"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["3CD2E0BAD7D3DD83"]
+			id: "7617480A5B066A06"
+			tasks: [{
+				id: "4643E5CF31AE871A"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:charger"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C8C66D284C96664"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["3CD2E0BAD7D3DD83"]
+			id: "5ABEBB29E0F57B28"
+			tasks: [
+				{
+					id: "57476E7A33DFC780"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:calculation_processor_press"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "01C62841BFD10730"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:engineering_processor_press"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "58EEA17DDC7AB624"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:logic_processor_press"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "52D45D4E0560332A"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:silicon_press"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "00AE369BA44DA50B"
+				type: "random"
+				table_id: 3088002506797539098L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["4F27BBEDAD0E37F2"]
+			id: "7DB4F769C48BE6E4"
+			tasks: [{
+				id: "25AB8DFFA16F5551"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:controller"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A10CA31291CA3D8"
+				type: "item"
+				item: {
+					id: "minecraft:redstone_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 13
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "53524659039562C5"
+			tasks: [{
+				id: "50CE4B37BEF60DC0"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:drive"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "227B6A9F95D11030"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:1k_storage_cell"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "67A756B745329BF5"
+			tasks: [{
+				id: "662FA50F898BCA33"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_cell"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "06FF17B5E9B3431D"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "3BF5CF888FC90EA5"
+			tasks: [
+				{
+					id: "212640E153F8B6F0"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:pattern_terminal"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "42FFF9B5F2B9E1EA"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:crafting_terminal"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "328BBF6EC36FC4B0"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:fluid_terminal"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18C94C04216A2BA1"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:printed_silicon"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: [
+				"7DB4F769C48BE6E4"
+				"53524659039562C5"
+			]
+			id: "0789B93034A54684"
+			tasks: [
+				{
+					id: "3932DD1077B68927"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:64k_fluid_cell_component"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "111DA45834EA8190"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:64k_cell_component"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "58A91199C99C6922"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "3298A10874D54EC6"
+			tasks: [{
+				id: "555E029E3C70A913"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:molecular_assembler"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "67568EDF5225ED2C"
+				type: "item"
+				item: "appliedenergistics2:annihilation_core"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			dependencies: ["3298A10874D54EC6"]
+			id: "09C2FF05ECC1FA3F"
+			tasks: [
+				{
+					id: "47595B9D617C42E6"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:crafting_accelerator"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "6E5EB5FC15D8AAF7"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_crafting_storage"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "66AB039F24BC1CA7"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_horse_armor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "4BC65C703B8D65AE"
+			tasks: [{
+				id: "6F71ECFB569F9E90"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:quartz_growth_accelerator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "07205F5D026E1548"
+				type: "item"
+				item: "appliedenergistics2:purified_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: ["0789B93034A54684"]
+			id: "5205F4C7C78AC2A1"
+			tasks: [
+				{
+					id: "5053B4EAF37177AA"
+					type: "item"
+					item: {
+						id: "ae2extras:16m_fluid_cell_component"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "6E6940E97CE7F004"
+					type: "item"
+					item: {
+						id: "ae2extras:16m_cell_component"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "300E33277457DB2C"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:128_cubed_spatial_cell_component"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1A699AC6DD431CB0"
+				type: "item"
+				item: "silentgear:spoon_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["7DB4F769C48BE6E4"]
+			id: "6527BF789BF9A173"
+			tasks: [{
+				id: "4505861B2E70C3EF"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:energy_acceptor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2D317F3D51917925"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "65CED520265B575F"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "76F607EC579C13A4"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "5CA229E7573BA41D"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "2C80BD38A5F9F682"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "566AF4A6ED382369"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "3E4667C76E38CDF4"
+					type: "item"
+					item: {
+						id: "minecraft:name_tag"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+		}
+	]
+}

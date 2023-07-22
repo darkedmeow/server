@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "createaddition:overcharged_alloy"
+    },
+    {
+      "item": "pneumaticcraft:plastic"
+    },
+	{
+      "item": "immersiveengineering:ingot_hop_graphite"
+    },
+	{
+      "item": "immersiveengineering:ingot_steel"
+    },
+	{
+      "item": "pneumaticcraft:advanced_pcb"
+    }
+  ],
+  "pressure": 3,
+  "results": [
+    {
+      "item": "createaddition:overcharged_casing",
+	  "count": 2
+    }
+  ]
+}

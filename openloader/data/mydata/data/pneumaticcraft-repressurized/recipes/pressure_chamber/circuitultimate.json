@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "type": "pneumaticcraft:stacked_item",
+      "item": "pneumaticcraft:advanced_pcb",
+      "count": 4
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "pneumaticcraft:plastic",
+      "count": 5
+    },
+    {
+       "type": "pneumaticcraft:stacked_item",
+      "item": "pneumaticcraft:logistics_core",
+      "count": 5
+    }
+    ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "electrodynamics:circuitultimate",
+	  "count": 3
+    }
+  ]
+}

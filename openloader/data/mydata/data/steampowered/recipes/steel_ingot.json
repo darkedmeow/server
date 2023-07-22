@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "immersiveengineering:coal_coke"
+    },
+    {
+      "item": "immersiveengineering:coal_coke"
+    },
+    {
+      "item": "immersiveengineering:coal_coke"
+    }
+  ],
+  "results": [
+    {
+      "item": "steampowered:steel_ingot",
+	  "count": 2
+    }
+  ],
+  "heatRequirement": "superheated"
+}

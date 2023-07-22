@@ -1,0 +1,23 @@
+{
+	id: "646C595A4D2A2A06"
+	order_index: 2
+	title: "Create"
+	icon: "create:polished_rose_quartz"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "create:cogwheel", count: 8 }
+		{
+			item: {
+				id: "create_stuff_additions:brass_pickaxe"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:brass_ingot" }
+		{ item: "create:sweet_roll" }
+	]
+}

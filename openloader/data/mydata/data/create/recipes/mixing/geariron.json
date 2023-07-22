@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+	},
+	{
+      "item": "minecraft:iron_ingot"
+	},
+	{
+      "item": "pneumaticcraft:plastic"
+	},
+	{
+      "item": "electrodynamics:compositeplatingraw"
+	}
+  ],
+  "results": [
+    {
+      "item": "electrodynamics:geariron"
+    }
+  ],
+  "heatRequirement": "heated"
+}

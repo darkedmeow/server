@@ -1,0 +1,29 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "steampowered:steel_ingot"
+    },
+    {
+      "item": "create:precision_mechanism"
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+	{
+      "item": "pneumaticcraft:pcb_blueprint"
+    },
+	{
+      "item": "pneumaticcraft:plastic"
+    },
+	{
+      "item": "pneumaticcraft:plastic"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "item": "pneumaticcraft:uv_light_box"
+    }
+  ]
+}

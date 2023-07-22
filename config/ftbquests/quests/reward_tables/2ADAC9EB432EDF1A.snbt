@@ -1,0 +1,46 @@
+{
+	id: "2ADAC9EB432EDF1A"
+	order_index: 0
+	title: "Случайность"
+	icon: {
+		id: "minecraft:lapis_ore"
+		Count: 1b
+		tag: {
+			temperature: 0.0d
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "create:andesite_alloy", count: 5 }
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:cake"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+		}
+		{ item: "farmersdelight:apple_pie" }
+		{ item: "farmersdelight:sweet_berry_cheesecake" }
+		{
+			item: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				tag: {
+					temperature: 0.0d
+				}
+			}
+			count: 16
+		}
+	]
+}

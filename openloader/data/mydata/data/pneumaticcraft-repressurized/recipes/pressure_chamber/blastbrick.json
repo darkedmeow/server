@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "electrodynamics:compositeplating"
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+	{
+      "item": "steampowered:steel_ingot"
+    }
+  ],
+  "pressure": 2.5,
+  "results": [
+    {
+      "item": "immersiveengineering:blastbrick",
+	  "count": 3
+    }
+  ]
+}

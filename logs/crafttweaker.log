@@ -1,0 +1,189 @@
+[20:51:34.793][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[20:51:35.917][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'crafttweaker' at version '7.1.2.511'
+'createautomated' at version '1.16.5-1.4.1a'
+'createtweaker' at version '1.0.0.26'
+'farmersdelight' at version '1.16.5-0.6.0'
+'immersiveengineering' at version '1.16.5-5.1.0-148'
+'immersivepetroleum' at version '3.4.0-13'
+'jeitweaker' at version '1.1.0.49'
+'mekanism' at version '10.1.2'
+'pneumaticcraft' at version '1.16.5-2.15.11-334'
+[20:51:37.279][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[20:52:04.870][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[20:52:05.773][LOAD_REGISTRIES][CLIENT][INFO] Loading file: 'examples/mekanism_custom_chemicals.zs' with priority: 10
+[20:52:06.071][LOAD_REGISTRIES][CLIENT][INFO] Queueing Gas 'crafttweaker:example_gas' for registration.
+[20:52:06.071][LOAD_REGISTRIES][CLIENT][INFO] Queueing Infuse Type 'crafttweaker:example_infuse_type' for registration.
+[20:52:06.071][LOAD_REGISTRIES][CLIENT][INFO] Queueing Pigment 'crafttweaker:example_pigment' for registration.
+[20:52:06.072][LOAD_REGISTRIES][CLIENT][INFO] Queueing Slurry 'crafttweaker:example_dirty_slurry' for registration.
+[20:52:06.072][LOAD_REGISTRIES][CLIENT][INFO] Queueing Slurry 'crafttweaker:example_clean_slurry' for registration.
+[20:52:06.072][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[20:52:06.072][LOAD_REGISTRIES][CLIENT][INFO] Registering 1 custom gas.
+[20:52:06.072][LOAD_REGISTRIES][CLIENT][INFO] Registered Gas: 'crafttweaker:example_gas'.
+[20:52:06.085][LOAD_REGISTRIES][CLIENT][INFO] Registering 1 custom infuse type.
+[20:52:06.085][LOAD_REGISTRIES][CLIENT][INFO] Registered Infuse Type: 'crafttweaker:example_infuse_type'.
+[20:52:06.091][LOAD_REGISTRIES][CLIENT][INFO] Registering 1 custom pigment.
+[20:52:06.092][LOAD_REGISTRIES][CLIENT][INFO] Registered Pigment: 'crafttweaker:example_pigment'.
+[20:52:06.095][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[20:52:06.098][LOAD_REGISTRIES][CLIENT][INFO] Registering 2 custom slurries.
+[20:52:06.098][LOAD_REGISTRIES][CLIENT][INFO] Registered Slurry: 'crafttweaker:example_dirty_slurry'.
+[20:52:06.098][LOAD_REGISTRIES][CLIENT][INFO] Registered Slurry: 'crafttweaker:example_clean_slurry'.
+[20:52:12.419][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[20:52:13.002][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[20:52:42.914][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:52:43.068][DONE][CLIENT][INFO] Loading file: 'Apdaut.zs' with priority: 10
+[20:52:43.073][DONE][CLIENT][INFO] Loading file: 'Apla.zs' with priority: 10
+[20:52:43.075][DONE][CLIENT][INFO] Loading file: 'Bak.zs' with priority: 10
+[20:52:43.080][DONE][CLIENT][INFO] Loading file: 'CreateCT.zs' with priority: 10
+[20:52:43.081][DONE][CLIENT][INFO] Loading file: 'Vanila.zs' with priority: 10
+[20:52:43.088][DONE][CLIENT][INFO] Loading file: 'XZ.zs' with priority: 10
+[20:52:43.089][DONE][CLIENT][INFO] Loading file: 'barakamera.zs' with priority: 10
+[20:52:43.097][DONE][CLIENT][INFO] Loading file: 'build.zs' with priority: 10
+[20:52:43.100][DONE][CLIENT][INFO] Loading file: 'chank.zs' with priority: 10
+[20:52:43.101][DONE][CLIENT][INFO] Loading file: 'examples/crafttweaker_crafting_recipes.zs' with priority: 10
+[20:52:43.103][DONE][CLIENT][INFO] Loading file: 'examples/crafttweaker_events.zs' with priority: 10
+[20:52:43.106][DONE][CLIENT][INFO] Loading file: 'examples/crafttweaker_hello_world.zs' with priority: 10
+[20:52:43.106][DONE][CLIENT][INFO] Loading file: 'examples/crafttweaker_loot_modifiers.zs' with priority: 10
+[20:52:43.112][DONE][CLIENT][INFO] Loading file: 'examples/crafttweaker_tags.zs' with priority: 10
+[20:52:43.114][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/alloy.zs' with priority: 10
+[20:52:43.115][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/arc_furnace.zs' with priority: 10
+[20:52:43.116][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/blast_furnace.zs' with priority: 10
+[20:52:43.117][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/blueprint.zs' with priority: 10
+[20:52:43.118][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/bottling_machine.zs' with priority: 10
+[20:52:43.119][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/cloche.zs' with priority: 10
+[20:52:43.120][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/coke_oven.zs' with priority: 10
+[20:52:43.121][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/crusher.zs' with priority: 10
+[20:52:43.121][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/fermenter.zs' with priority: 10
+[20:52:43.122][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/metal_press.zs' with priority: 10
+[20:52:43.122][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/mineral_mix.zs' with priority: 10
+[20:52:43.122][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/mixer.zs' with priority: 10
+[20:52:43.123][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/refinery.zs' with priority: 10
+[20:52:43.123][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/sawmill.zs' with priority: 10
+[20:52:43.124][DONE][CLIENT][INFO] Loading file: 'examples/immersiveengineering/squeezer.zs' with priority: 10
+[20:52:43.125][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_activating.zs' with priority: 10
+[20:52:43.125][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_centrifuging.zs' with priority: 10
+[20:52:43.126][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_chemical_infusing.zs' with priority: 10
+[20:52:43.127][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_combining.zs' with priority: 10
+[20:52:43.127][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_compressing.zs' with priority: 10
+[20:52:43.128][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_crushing.zs' with priority: 10
+[20:52:43.128][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_crystallizer.zs' with priority: 10
+[20:52:43.130][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_dissolution.zs' with priority: 10
+[20:52:43.131][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_energy_conversion.zs' with priority: 10
+[20:52:43.131][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_enriching.zs' with priority: 10
+[20:52:43.133][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_evaporating.zs' with priority: 10
+[20:52:43.135][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_gas_conversion.zs' with priority: 10
+[20:52:43.138][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_infusion_conversion.zs' with priority: 10
+[20:52:43.138][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_injecting.zs' with priority: 10
+[20:52:43.138][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_jeitweaker_integration.zs' with priority: 10
+[20:52:43.139][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_metallurgic_infusing.zs' with priority: 10
+[20:52:43.139][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_nucleosynthesizing.zs' with priority: 10
+[20:52:43.140][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_oxidizing.zs' with priority: 10
+[20:52:43.141][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_painting.zs' with priority: 10
+[20:52:43.141][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_pigment_extracting.zs' with priority: 10
+[20:52:43.141][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_pigment_mixing.zs' with priority: 10
+[20:52:43.142][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_purifying.zs' with priority: 10
+[20:52:43.143][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_reaction.zs' with priority: 10
+[20:52:43.146][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_rotary.zs' with priority: 10
+[20:52:43.148][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_sawing.zs' with priority: 10
+[20:52:43.149][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_separating.zs' with priority: 10
+[20:52:43.150][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_smelting.zs' with priority: 10
+[20:52:43.150][DONE][CLIENT][INFO] Loading file: 'examples/mekanism_washing.zs' with priority: 10
+[20:52:43.150][DONE][CLIENT][INFO] Loading file: 'farmers.zs' with priority: 10
+[20:52:43.151][DONE][CLIENT][INFO] Loading file: 'meka.zs' with priority: 10
+[20:52:43.154][DONE][CLIENT][INFO] Loading file: 'nasa.zs' with priority: 10
+[20:52:43.155][DONE][CLIENT][INFO] Loading file: 'utp.zs' with priority: 10
+[20:52:43.158][DONE][CLIENT][ERROR] Parser Exception @ examples/mekanism_sawing.zs:32:137 : Type expected (got 4.)
+org.openzen.zenscript.lexer.ParseException: examples/mekanism_sawing.zs:32:137: Type expected (got 4.)
+	at org.openzen.zenscript.parser.type.IParsedType.parse(IParsedType.java:24)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:564)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:292)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:46)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
+	at org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
+	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:219)
+	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:198)
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456)
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70)
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+[20:52:43.164][DONE][CLIENT][ERROR] Parser Exception @ examples/mekanism_sawing.zs:32:151 : ; expected
+org.openzen.zenscript.lexer.ParseException: examples/mekanism_sawing.zs:32:151: ; expected
+	at org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:300)
+	at org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
+	at org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
+	at org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:123)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.readAndExecuteScripts(ScriptRun.java:112)
+	at com.blamejared.crafttweaker.api.zencode.impl.loaders.ScriptRun.run(ScriptRun.java:100)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:136)
+	at com.blamejared.crafttweaker.api.CraftTweakerAPI.loadScripts(CraftTweakerAPI.java:119)
+	at com.blamejared.crafttweaker.CraftTweaker$1.apply(CraftTweaker.java:219)
+	at com.blamejared.crafttweaker.CraftTweaker$1.func_212853_a_(CraftTweaker.java:198)
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456)
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71)
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70)
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+
+[20:52:43.165][DONE][CLIENT][ERROR] Scripts are invalid!
+[20:52:43.209][DONE][CLIENT][INFO] Finished loading Scripts!
+[20:52:43.237][DONE][CLIENT][INFO] This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

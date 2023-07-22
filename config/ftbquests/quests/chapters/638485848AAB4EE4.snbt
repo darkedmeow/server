@@ -1,0 +1,1035 @@
+{
+	id: "638485848AAB4EE4"
+	group: ""
+	order_index: 5
+	filename: "638485848AAB4EE4"
+	title: "Эра энергии"
+	icon: "mekanism:ultimate_control_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["5205F4C7C78AC2A1"]
+			id: "270B24C8327AB933"
+			tasks: [{
+				id: "099A0CE8AB6868D5"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "2D75BD187AAB4B38"
+				type: "item"
+				item: {
+					id: "ae2extras:4m_storage_cell"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["270B24C8327AB933"]
+			id: "0B7D0CE3E194288C"
+			tasks: [{
+				id: "2D046615D3A279C2"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				count: 5L
+			}]
+			rewards: [{
+				id: "65748E3AE3A8066F"
+				type: "item"
+				item: {
+					id: "minecraft:ender_chest"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			dependencies: ["0B7D0CE3E194288C"]
+			id: "0225B0D9FCC4C90B"
+			tasks: [{
+				id: "3989A717B06EBC46"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 5L
+			}]
+			rewards: [{
+				id: "774A91C3EC0D8694"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.0d
+			dependencies: ["0225B0D9FCC4C90B"]
+			id: "7375CB74499E6725"
+			tasks: [{
+				id: "69DEFF8D978383D4"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 5L
+			}]
+			rewards: [{
+				id: "5044C4EE4E123F0D"
+				type: "item"
+				item: {
+					id: "minecraft:end_crystal"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -8.5d
+			dependencies: ["7375CB74499E6725"]
+			id: "24DA0231C6CFA2C7"
+			tasks: [{
+				id: "18B8ADC8166758D2"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				count: 5L
+			}]
+			rewards: [{
+				id: "22B40F5CA761499D"
+				type: "random"
+				table_id: 2718829273702904777L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["270B24C8327AB933"]
+			id: "57E5CEFF89773A7C"
+			tasks: [{
+				id: "69EA77D48ABB66E0"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 32L
+			}]
+			rewards: [{
+				id: "1B1E9083B72EA5E6"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["57E5CEFF89773A7C"]
+			id: "46B0B959FAA5A69A"
+			tasks: [{
+				id: "78B359B235A22A5F"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				count: 16L
+			}]
+			rewards: [{
+				id: "5C819F3587BA7C9E"
+				type: "xp"
+				xp: 1000
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "0A3A3DA70C27ADA2"
+			tasks: [{
+				id: "545C8F333ACAD6F5"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4AAFC9F724CB5DAA"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "4FF166B63CFA5741"
+			tasks: [{
+				id: "015EB8849135F4CF"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "0593886E949BD13A"
+				type: "item"
+				item: "farmersdelight:baked_cod_stew"
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "16457EEB047702CE"
+			tasks: [{
+				id: "7B9FBFE309092E14"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "784FC1E474C34214"
+				type: "item"
+				item: "mekanism:module_energy_unit"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "1FD9F4E0819AEB0B"
+			tasks: [{
+				id: "4534AC6E1CFD8726"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [
+				{
+					id: "491526511A6CBDBC"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:plastic_bucket"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "6EF9F8D6DD0E2A1D"
+					type: "random"
+					table_id: 3088002506797539098L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "27D82138B34460BE"
+			tasks: [{
+				id: "26E9723D03EFE735"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "623DD225D889FB09"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 24
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "4643EA5847FCBBB0"
+			tasks: [{
+				id: "30DC7FAFFF844573"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "78DE0D72631CDFAE"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:glycerol"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "2DED373B070C0AB6"
+			tasks: [{
+				id: "3FBBDD23D1DDFE57"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "63520BAA617DAD7E"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "3D38ACDC13128FDF"
+			tasks: [{
+				id: "4F1CBF26B5D8683A"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [{
+				id: "231F84CEF63C8541"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:printed_circuit_board"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["270B24C8327AB933"]
+			id: "2257A64DF1798831"
+			tasks: [{
+				id: "2FF103A1967C16F1"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:wind_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BB40CBBBEA82CED"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:capacitor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			dependencies: ["2257A64DF1798831"]
+			id: "53FF8432ACB27DD5"
+			tasks: [{
+				id: "51044B95B4385146"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:advanced_solar_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "60DAF0189C2C64F4"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:solar_panel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["2257A64DF1798831"]
+			id: "7C8311B9766FCFB9"
+			tasks: [{
+				id: "01DEA23D7BBA8C67"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:heat_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "35DA4D83D7DEEABA"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:lava"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			dependencies: ["2257A64DF1798831"]
+			id: "376F6EA04CBC1F64"
+			tasks: [{
+				id: "2D3BE818C7966B90"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:gas_burning_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "37A033354B10BDD1"
+				type: "item"
+				item: "mekanism:block_copper"
+				count: 9
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			dependencies: ["270B24C8327AB933"]
+			id: "40E84126178F9696"
+			tasks: [{
+				id: "585AD22607826766"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+			rewards: [{
+				id: "40D3983F9B0121C9"
+				type: "item"
+				item: {
+					id: "minecraft:emerald_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			dependencies: ["40E84126178F9696"]
+			id: "3501066EE033D597"
+			tasks: [{
+				id: "4225A9ABA528A4BC"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+			rewards: [{
+				id: "24F741FB0CB44A49"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			dependencies: ["3501066EE033D597"]
+			id: "74D9FC26BB029F4B"
+			tasks: [{
+				id: "14E607C0A01FF400"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+			rewards: [{
+				id: "036621291AFE0F70"
+				type: "item"
+				item: "mekanism:advanced_energy_cube"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			dependencies: ["74D9FC26BB029F4B"]
+			id: "113EFB0CE9BAE542"
+			tasks: [{
+				id: "2055295D68226965"
+				type: "item"
+				item: "mekanism:ultimate_energy_cube"
+			}]
+			rewards: [{
+				id: "7E10EC65F7C91571"
+				type: "item"
+				item: "mekanism:elite_energy_cube"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			dependencies: ["2257A64DF1798831"]
+			id: "3B8CACBC4C937B63"
+			tasks: [{
+				id: "37D8D9E37EBB6BDE"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:bio_generator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "18CC1175E89BCCFD"
+				type: "item"
+				item: {
+					id: "minecraft:oak_sapling"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 64
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["0A3A3DA70C27ADA2"]
+			id: "43C4FDD59FDB6419"
+			tasks: [{
+				id: "49E9C9CEDF429F56"
+				type: "item"
+				item: {
+					id: "mekanism:atomic_disassembler"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "79A0CC2D303BF97A"
+				type: "item"
+				item: "mekanism:module_excavation_escalation_unit"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			dependencies: [
+				"0A3A3DA70C27ADA2"
+				"7CD0939FD1E212D0"
+			]
+			id: "2E5BECB080810C4F"
+			tasks: [{
+				id: "40D34C7EACB1BA1F"
+				type: "item"
+				item: {
+					id: "mekanism:jetpack"
+					Count: 1b
+					tag: {
+						HideFlags: 2
+					}
+				}
+			}]
+			rewards: [{
+				id: "44B1A24D75CB905A"
+				type: "item"
+				item: "mekanism:block_osmium"
+				count: 4
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			dependencies: ["2E5BECB080810C4F"]
+			id: "187319DC1DF2D07F"
+			tasks: [{
+				id: "4AE7301D4603CE70"
+				type: "item"
+				item: "mekanism:jetpack_armored"
+			}]
+			rewards: [{
+				id: "0BBDBB6744DBA938"
+				type: "item"
+				item: "mekanism:upgrade_gas"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["613F1082CF049B64"]
+			id: "7CD0939FD1E212D0"
+			tasks: [{
+				id: "02D8D45C3E0F5128"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "7E43E1B592006106"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:minigun"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.0d
+			dependencies: ["57E5CEFF89773A7C"]
+			id: "613F1082CF049B64"
+			tasks: [{
+				id: "27290589E1A29D02"
+				type: "item"
+				item: "mekanism:electrolytic_core"
+			}]
+			rewards: [{
+				id: "2AEB83D4F4B89696"
+				type: "item"
+				item: {
+					id: "minecraft:redstone_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			title: "Подсказка!"
+			x: 2.5d
+			y: -2.0d
+			description: [""]
+			dependencies: ["46B0B959FAA5A69A"]
+			id: "2CAF1875982CFF83"
+			tasks: [{
+				id: "4C3270F0BCABF718"
+				type: "checkmark"
+				title: "Подсказка!"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			dependencies: ["0225B0D9FCC4C90B"]
+			id: "7F240D3AA7C15B33"
+			tasks: [
+				{
+					id: "37DD000FAA0DA9B8"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:turbine_casing"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "5E1754E8524F3895"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:turbine_valve"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "263ACC7485646379"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:turbine_vent"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "61467E01D36F1094"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:saturating_condenser"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "2B81C40065ABEF95"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:electromagnetic_coil"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "0B94E42F5D42F53A"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:turbine_rotor"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "10FA3BE100A95B04"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:rotational_complex"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32882536DDB89983"
+				type: "item"
+				item: {
+					id: "electrodynamics:ingotmolybdenum"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -8.5d
+			dependencies: ["24DA0231C6CFA2C7"]
+			id: "710495F6AEE80303"
+			tasks: [
+				{
+					id: "51DE5F9903B380D2"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fission_reactor_casing"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "70847CCDBEBFF4F2"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fission_reactor_port"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "045D67C4CFB48873"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fission_reactor_logic_adapter"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "191599F40929EBD3"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:fission_fuel_assembly"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+				{
+					id: "6ACF7C3D16EA361D"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:control_rod_assembly"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D1BC683C384F8A8"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["57E5CEFF89773A7C"]
+			id: "6E0A3D35540586D2"
+			tasks: [
+				{
+					id: "6EE4D08FEC824BAD"
+					type: "item"
+					item: "mekanism:upgrade_speed"
+					count: 8L
+				}
+				{
+					id: "7D5B81650E2618AC"
+					type: "item"
+					item: "mekanism:upgrade_energy"
+					count: 8L
+				}
+				{
+					id: "188C8396F334C824"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+				{
+					id: "6B1C3E262E622937"
+					type: "item"
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					id: "446B569E38D3CC3C"
+					type: "item"
+					item: "mekanism:upgrade_gas"
+				}
+				{
+					id: "3B3CBDC0D33EB0E2"
+					type: "item"
+					item: "mekanism:upgrade_anchor"
+				}
+				{
+					id: "23A9D6AFAC802B52"
+					type: "item"
+					item: "mekanism:upgrade_stone_generator"
+				}
+			]
+			rewards: [{
+				id: "4641F7E0BB35BCBA"
+				type: "random"
+				table_id: 2718829273702904777L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["Нужен для настройки труб"]
+			dependencies: ["270B24C8327AB933"]
+			id: "4D129586879827CE"
+			tasks: [{
+				id: "3B07F64DA3EBD084"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [{
+				id: "407CF7A253A5BB2F"
+				type: "random"
+				icon: {
+					id: "create_stuff_additions:brass_portable_drill"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				table_id: 7236256945654082054L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: ["0A3A3DA70C27ADA2"]
+			id: "4413833FCA0F68B1"
+			tasks: [{
+				id: "6CFED63493CA73D7"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "1F3AB4364B577D94"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["0A3A3DA70C27ADA2"]
+			id: "7F6A090BD303AD68"
+			tasks: [
+				{
+					id: "28432C517E291497"
+					type: "item"
+					item: "mekanism:quantum_entangloporter"
+				}
+				{
+					id: "2589DF3EAE63543E"
+					type: "item"
+					item: "mekanism:teleporter"
+				}
+				{
+					id: "7BCC87355C7E9429"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 9L
+				}
+				{
+					id: "6122BEA0BBF9385B"
+					type: "item"
+					item: "mekanism:portable_teleporter"
+				}
+			]
+			rewards: [{
+				id: "2F0B16F397E2A7A7"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_golden_apple"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 7
+			}]
+		}
+		{
+			x: -4.0d
+			y: -7.0d
+			dependencies: ["710495F6AEE80303"]
+			id: "23CE0017D78CE097"
+			tasks: [
+				{
+					id: "6D7D52F38701219F"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_mask"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1F7308628E80412C"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_gown"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "61723C25B08F0793"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1AC003FB1C4150D2"
+					type: "item"
+					item: {
+						id: "mekanism:hazmat_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "6E64710D8AF6ADCC"
+					type: "item"
+					item: "mekanism:dosimeter"
+				}
+				{
+					id: "573143B256613DD5"
+					type: "item"
+					item: "mekanism:geiger_counter"
+				}
+			]
+			rewards: [{
+				id: "268CF90AB81E8EA7"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+						StoredEnchantments: [{
+							lvl: 5s
+							id: "minecraft:sharpness"
+						}]
+					}
+				}
+			}]
+		}
+	]
+}

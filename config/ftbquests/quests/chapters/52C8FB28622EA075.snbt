@@ -1,0 +1,225 @@
+{
+	id: "52C8FB28622EA075"
+	group: ""
+	order_index: 8
+	filename: "52C8FB28622EA075"
+	title: "Безделушки"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		tag: {
+			temperature: 0.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "02081F2BFF7170E8"
+			tasks: [{
+				id: "4B591E7964BF35EE"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:backpack"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FBBEC2E0BFF71CF"
+				type: "item"
+				item: "farmersdelight:melon_juice"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "7BB457BEFCDCDEAD"
+			tasks: [
+				{
+					id: "248987C7C2A7A998"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "24C8A86A37472667"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+				{
+					id: "7AE3D66CEED4713D"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							temperature: 0.0d
+							template_id: [I;
+								-1104779771
+								144786980
+								-1551014028
+								1204465972
+							]
+						}
+					}
+				}
+				{
+					id: "7B8755A84942947B"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "428B8AB945853822"
+				type: "item"
+				item: "byg:blueberry_pie"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			id: "2D83864BA2729237"
+			tasks: [{
+				id: "0032F75CA3F84DB5"
+				type: "item"
+				item: {
+					id: "waystones:waystone"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "13256CC42508C828"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			id: "31F03EDA5A9139E5"
+			tasks: [{
+				id: "16078F885271B6AD"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FB0B3588439DCAC"
+				type: "item"
+				item: {
+					id: "minecraft:bone_meal"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			id: "781B5BC6B08A45CF"
+			tasks: [{
+				id: "4A84CB622F9CD476"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:sticky_helmet"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F9FE5863C4D8C15"
+				type: "item"
+				item: {
+					id: "minecraft:slime_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			id: "378E6138266080AA"
+			tasks: [{
+				id: "7265C88432A93011"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:blaze_flame_thrower"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "296D524BE9FE2FAB"
+				type: "item"
+				item: {
+					id: "minecraft:blaze_rod"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 3
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	id: "c84f2478-3667-3ea8-9aaf-b061181cdc59"
+	type: "player"
+	player_name: "debagbot"
+	ranks: {
+		c84f2478-3667-3ea8-9aaf-b061181cdc59: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "debagbot"
+		"ftbteams:color": "#82FF59"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

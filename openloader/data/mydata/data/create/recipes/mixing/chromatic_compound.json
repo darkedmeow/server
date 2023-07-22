@@ -1,0 +1,44 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "alloyed:bronze_ingot"
+    },
+    {
+      "item": "alloyed:bronze_ingot"
+    },
+    {
+      "item": "alloyed:bronze_ingot"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:powdered_obsidian"
+    },
+    {
+      "item": "create:polished_rose_quartz"
+    },
+	{
+      "item": "create:precision_mechanism"
+    },
+	{
+      "item": "create:cinder_flour"
+    },
+	{
+      "item": "create:cinder_flour"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:chromatic_compound"
+    },
+	{
+      "item": "create:chromatic_compound"
+    }
+  ],
+  "heatRequirement": "superheated"
+}

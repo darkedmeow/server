@@ -1,0 +1,1000 @@
+{
+	id: "7336CCC9D84A032F"
+	group: ""
+	order_index: 2
+	filename: "7336CCC9D84A032F"
+	title: "Улучшение"
+	icon: {
+		id: "electrodynamics:windmill"
+		Count: 1b
+		tag: {
+			temperature: 0.0d
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "И снова здравствуй!"
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["28E6888FE6713FBE"]
+			id: "3E363D344178254B"
+			tasks: [{
+				id: "5138264A34C29192"
+				type: "checkmark"
+				title: "o/"
+			}]
+			rewards: [{
+				id: "76943601EEFAC8F9"
+				type: "item"
+				item: {
+					id: "minecraft:emerald_block"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["3E363D344178254B"]
+			id: "4F78759ED7A94858"
+			tasks: [{
+				id: "175375397C4E723B"
+				type: "item"
+				item: {
+					id: "electrodynamics:electricfurnace"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BA068A4FFD3A8FB"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["4F78759ED7A94858"]
+			id: "3E605FF4E8425F9D"
+			tasks: [{
+				id: "202CA933A4EC624B"
+				type: "item"
+				item: {
+					id: "electrodynamics:electricfurnacedouble"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "71F2EF1752FA4039"
+				type: "item"
+				item: "steampowered:steel_ingot"
+				count: 23
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["3E363D344178254B"]
+			id: "1B08A5F9307090E5"
+			tasks: [{
+				id: "1A80541440ADD960"
+				type: "item"
+				item: {
+					id: "electrodynamics:coalgenerator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "098362F154AD83FE"
+				type: "item"
+				item: {
+					id: "minecraft:charcoal"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 18
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["3E363D344178254B"]
+			id: "45EB6B5E31D23721"
+			tasks: [{
+				id: "0ACCD86D01F7A0DA"
+				type: "item"
+				item: {
+					id: "electrodynamics:wiremill"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "7704496E371DD493"
+				type: "item"
+				item: {
+					id: "electrodynamics:motor"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["45EB6B5E31D23721"]
+			id: "495DC602DE9EE953"
+			tasks: [{
+				id: "28475C57B5AFD4EF"
+				type: "item"
+				item: {
+					id: "electrodynamics:wiremilldouble"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "08723142697961AC"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:printed_circuit_board"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["495DC602DE9EE953"]
+			id: "10CDBC27206F1091"
+			tasks: [{
+				id: "342542B3FD54B122"
+				type: "item"
+				item: {
+					id: "electrodynamics:wiremilltriple"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "21EE08694E6CFC42"
+				type: "item"
+				item: {
+					id: "electrodynamics:wireceramicinsulatedtin"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["3E363D344178254B"]
+			id: "2C8A5851D9318B95"
+			tasks: [{
+				id: "15DC30BDCE6F1D22"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralcrusher"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4991B14107C5EE02"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["2C8A5851D9318B95"]
+			id: "576B7321CAEFB604"
+			tasks: [{
+				id: "7CD1E567E6FEEDD2"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralcrusherdouble"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "51F985F905650BF2"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_incendiary"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			dependencies: ["576B7321CAEFB604"]
+			id: "4283173CA8EF69CA"
+			tasks: [{
+				id: "485BEBC79141B595"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralcrushertriple"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DB1AB1863FD5923"
+				type: "item"
+				item: {
+					id: "electrodynamics:circuitultimate"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["3E363D344178254B"]
+			id: "0B862A2CD2DD9BC6"
+			tasks: [{
+				id: "780833F909494621"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralgrinder"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "08B6E7837A872A78"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["0B862A2CD2DD9BC6"]
+			id: "5FBFD9DFC4E6C528"
+			tasks: [{
+				id: "540172BC57759D5D"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralgrinderdouble"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "076398824EE6605C"
+				type: "item"
+				item: {
+					id: "electrodynamics:gearbronze"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			dependencies: ["5FBFD9DFC4E6C528"]
+			id: "01AF45E109B0702D"
+			tasks: [{
+				id: "69FB320593A600E2"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralgrindertriple"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E373771FC4311DD"
+				type: "item"
+				item: {
+					id: "minecraft:lapis_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 9
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["3E363D344178254B"]
+			id: "1EC9064F736B0618"
+			tasks: [{
+				id: "7A8F386B0DB8C714"
+				type: "item"
+				item: {
+					id: "electrodynamics:batterybox"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C528137A09A4624"
+				type: "item"
+				item: {
+					id: "electrodynamics:processorupgradebasiccapacity"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["1EC9064F736B0618"]
+			id: "6B5811123C5ED11D"
+			tasks: [{
+				id: "6B6BE68D7A1D9925"
+				type: "item"
+				item: {
+					id: "electrodynamics:lithiumbatterybox"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "54D9839358A064BB"
+				type: "item"
+				item: {
+					id: "minecraft:gold_ore"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["3E363D344178254B"]
+			id: "4462DAB96130301E"
+			tasks: [{
+				id: "12243BFB8F9F877C"
+				type: "item"
+				item: {
+					id: "electrodynamics:oxidationfurnace"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "15C96150FC5B9E5E"
+				type: "item"
+				item: {
+					id: "minecraft:music_disc_mellohi"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			dependencies: ["3E363D344178254B"]
+			id: "0D79C8510D403186"
+			tasks: [{
+				id: "222E027C370B69B9"
+				type: "item"
+				item: {
+					id: "electrodynamics:downgradetransformer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C1F3C00818E68EE"
+				type: "random"
+				table_id: 3088002506797539098L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -5.5d
+			dependencies: ["0D79C8510D403186"]
+			id: "432EEE0AE4DB2BFE"
+			tasks: [{
+				id: "6045609046580421"
+				type: "item"
+				item: {
+					id: "electrodynamics:upgradetransformer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "02006518535EBBB8"
+				type: "item"
+				item: {
+					id: "minecraft:honey_bottle"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["1B08A5F9307090E5"]
+			id: "2B1C6A93FCCA111E"
+			tasks: [{
+				id: "05B712E694FB32D7"
+				type: "item"
+				item: {
+					id: "electrodynamics:solarpanel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "34582CED018E8AAF"
+				type: "item"
+				item: {
+					id: "minecraft:glass"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 58
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			dependencies: ["2B1C6A93FCCA111E"]
+			id: "0FE312DE24109C9D"
+			tasks: [{
+				id: "5B1C3C758E9D328C"
+				type: "item"
+				item: {
+					id: "electrodynamics:advancedsolarpanel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2ED16B65CB9F76D6"
+				type: "item"
+				item: {
+					id: "electrodynamics:solarpanel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			dependencies: ["1B08A5F9307090E5"]
+			id: "3CFC7AEA9DD196BA"
+			tasks: [{
+				id: "135CAD98E430187A"
+				type: "item"
+				item: {
+					id: "electrodynamics:thermoelectricgenerator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "5132B9548D832BDC"
+				type: "item"
+				item: "mekanism:block_copper"
+				count: 2
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			dependencies: ["1B08A5F9307090E5"]
+			id: "064B1D8A7F5BFF20"
+			tasks: [{
+				id: "5960F8F662505C0F"
+				type: "item"
+				item: {
+					id: "electrodynamics:hydroelectricgenerator"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "59A972A0DFDBB2FE"
+				type: "item"
+				item: {
+					id: "electrodynamics:ingotsuperconductive"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 9
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["1B08A5F9307090E5"]
+			id: "7678D06CC111A3E0"
+			tasks: [{
+				id: "578C85EE61AB30AA"
+				type: "item"
+				item: {
+					id: "electrodynamics:windmill"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C21473725C387B1"
+				type: "item"
+				item: {
+					id: "electrodynamics:wiresilver"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["3E363D344178254B"]
+			id: "2950A423C9B9C162"
+			tasks: [{
+				id: "2D0A564FB7E1CDDB"
+				type: "item"
+				item: {
+					id: "electrodynamics:electricpump"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CD378BA20B28CD6"
+				type: "item"
+				item: {
+					id: "waystones:waystone"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["3E363D344178254B"]
+			id: "17B5E9E412F3BD34"
+			tasks: [{
+				id: "0288DBED600D4C09"
+				type: "item"
+				item: {
+					id: "electrodynamics:combustionchamber"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7DEAC0210BBAE6B7"
+					type: "item"
+					item: {
+						id: "minecraft:jungle_sapling"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 3
+				}
+				{
+					id: "6440F3FC2F9D8AAC"
+					type: "item"
+					item: {
+						id: "minecraft:acacia_sapling"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 3
+				}
+				{
+					id: "36DA5B4C1D92D334"
+					type: "item"
+					item: {
+						id: "minecraft:dark_oak_sapling"
+						Count: 1b
+						tag: {
+							temperature: 0.0d
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["17B5E9E412F3BD34"]
+			id: "37C623DB74E2299D"
+			tasks: [{
+				id: "75E0BBE2B776C70F"
+				type: "item"
+				item: {
+					id: "electrodynamics:fermentationplant"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ADC6B00F2BDFAAA"
+				type: "item"
+				item: {
+					id: "minecraft:cow_spawn_egg"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			dependencies: ["6B5811123C5ED11D"]
+			id: "069C1B9CD1B758A2"
+			tasks: [{
+				id: "175BDA62E7EE549C"
+				type: "item"
+				item: {
+					id: "electrodynamics:chargerlv"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2739AE9E1C6C5706"
+				type: "item"
+				item: {
+					id: "electrodynamics:compositeplating"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			dependencies: ["069C1B9CD1B758A2"]
+			id: "652B86460C42DB95"
+			tasks: [{
+				id: "750A80EDC2A70F3C"
+				type: "item"
+				item: {
+					id: "electrodynamics:chargermv"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "09B0098E79B5CF57"
+				type: "item"
+				item: {
+					id: "electrodynamics:circuitbasic"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			dependencies: ["652B86460C42DB95"]
+			id: "2ACC1D353AB3F320"
+			tasks: [{
+				id: "06C48839C0BA3DF9"
+				type: "item"
+				item: {
+					id: "electrodynamics:chargerhv"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2061DF821135FD64"
+				type: "item"
+				item: {
+					id: "electrodynamics:circuitelite"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["3E363D344178254B"]
+			id: "22F4068B03277415"
+			tasks: [{
+				id: "621F22419934AF9A"
+				type: "item"
+				item: {
+					id: "electrodynamics:lathe"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0581312D579394CD"
+				type: "item"
+				item: "silentgear:dagger_blueprint"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["3E363D344178254B"]
+			id: "5351369E6FF4530D"
+			tasks: [{
+				id: "7AF786F7ABE68E54"
+				type: "item"
+				item: {
+					id: "electrodynamics:energizedalloyer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "081B1CBFE3342338"
+				type: "item"
+				item: {
+					id: "electrodynamics:gearsteel"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["5351369E6FF4530D"]
+			id: "5475C9CD65019837"
+			tasks: [{
+				id: "1DF8C5BB3F302A9B"
+				type: "item"
+				item: {
+					id: "electrodynamics:reinforcedalloyer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A33C3729D4674AE"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["01AF45E109B0702D"]
+			id: "2B1CF76BF3749898"
+			tasks: [{
+				id: "40D89D339282E6D9"
+				type: "item"
+				item: {
+					id: "electrodynamics:chemicalcrystallizer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "0411B9317844071C"
+				type: "item"
+				item: "electrodynamics:canisterreinforced"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["2B1CF76BF3749898"]
+			id: "2FF95D541FB2CD1F"
+			tasks: [{
+				id: "4CFBFE9A0B305064"
+				type: "item"
+				item: {
+					id: "electrodynamics:chemicalmixer"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "2D46A103ED9D21C9"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:feeding_upgrade"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: [
+				"2FF95D541FB2CD1F"
+				"5475C9CD65019837"
+			]
+			id: "65B34C7861A55A5D"
+			tasks: [{
+				id: "0C06BB0D95B263B7"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralwasher"
+					Count: 1b
+					tag: {
+						temperature: 0.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "099B57A88E4E8782"
+				type: "item"
+				item: "sons_of_sins:rotten_apple"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["65B34C7861A55A5D"]
+			id: "03FA647489C4DF86"
+			tasks: [{
+				id: "22E23ACCBD3AD120"
+				type: "checkmark"
+				title: "Конец"
+			}]
+		}
+	]
+}

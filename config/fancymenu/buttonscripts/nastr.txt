@@ -1,0 +1,2 @@
+opengui:net.minecraft.client.gui.screen.OptionsScreen
+set_variable:optcontext:0

@@ -25,7 +25,7 @@ craftingTable.addShaped("apdaut_04",<item:electrodynamics:electricfurnacedouble>
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 craftingTable.addShaped("dynamo_im",<item:immersiveengineering:dynamo> , [
 [<tag:items:forge:plates/iron>,<item:immersiveengineering:coil_lv>,<tag:items:forge:plates/iron>],
-[<tag:items:forge:plates/brass>,<item:minecraft:redstone_block>.withTag({temperature: 0.0 as double}),<tag:items:forge:plates/brass>],
+[<tag:items:forge:plates/brass>,<item:minecraft:redstone_block>,<tag:items:forge:plates/brass>],
 [<tag:items:forge:plates/iron>,<tag:items:forge:plates/brass>,<tag:items:forge:plates/iron>]], null);
 
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);

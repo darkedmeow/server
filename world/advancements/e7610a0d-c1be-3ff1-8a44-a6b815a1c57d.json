@@ -149,15 +149,15 @@
     },
     "done": true
   },
-  "immersivepetroleum:recipes/immersivepetroleum/speedboat": {
-    "criteria": {
-      "has_treated_planks": "2023-07-22 18:51:03 +0300"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/gold_backpack": {
     "criteria": {
       "has_iron_backpack": "2023-07-22 17:10:06 +0300"
+    },
+    "done": true
+  },
+  "immersivepetroleum:recipes/immersivepetroleum/speedboat": {
+    "criteria": {
+      "has_treated_planks": "2023-07-22 18:51:03 +0300"
     },
     "done": true
   },
@@ -7792,15 +7792,15 @@
     },
     "done": true
   },
-  "immersiveengineering:recipes/immersiveengineering/crafting/reinforced_crate": {
-    "criteria": {
-      "has_treated_planks": "2023-07-22 18:51:03 +0300"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/sophisticatedbackpacks/compacting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2023-07-22 17:12:56 +0300"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/reinforced_crate": {
+    "criteria": {
+      "has_treated_planks": "2023-07-22 18:51:03 +0300"
     },
     "done": true
   },
